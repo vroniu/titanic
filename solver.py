@@ -113,11 +113,11 @@ for index, value in enumerate(y_pred):
     results.append("P: " + str(predicted) + " E: " + str(expected) +  " " + str(predicted==expected))
 acc_nna = right_guesses/len(results) * 100
 # %%
-print("Podstawowy data preprocessing: ")
-print("Accuracy dla sieci neuronowej: " + str(acc_nnb))
-print("Accuracy dla drzewa decyzyjnego: " + str(acc_dtb))
-print("Bardziej zaawansowany preprocessing: ")
-print("Accuracy dla sieci neuronowej: " + str(acc_nna))
-print("Accuracy dla drzewa decyzyjnego: " + str(acc_dta))
+print("Basic data preprocessing: ")
+print("Neural network accuracy: " + str(acc_nnb))
+print("Decision tree accuracy: " + str(acc_dtb))
+print("More advanced data preprocessing: ")
+print("Neural network accuracy:  " + str(acc_nna))
+print("Decision tree accuracy:" + str(acc_dta))
 
 # %%
